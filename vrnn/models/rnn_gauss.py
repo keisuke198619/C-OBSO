@@ -6,7 +6,7 @@ from vrnn.models.utils import sample_gauss, nll_gauss, kld_gauss, sample_multino
 from vrnn.models.utils import batch_error, roll_out, sample_gumbel, sample_gumbel_softmax
 import torch.nn.functional as F
 
-# anonymous, 2020
+# Keisuke Fujii, 2020
 # modifying the code https://github.com/ezhan94/multiagent-programmatic-supervision
 
 class RNN_GAUSS(nn.Module):
