@@ -1,6 +1,4 @@
 #!/bin/bash
-cd /home/fujii/workspace5/work/CMAIL/VRNN_Jleague
-source $HOME/workspace5/torchVRNN/bin/activate 
 
 # --TEST: test only
 # --cont: learning from trained model
